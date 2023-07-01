@@ -14,7 +14,7 @@ function AcceptIntro(){
                 </div>
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">
-                    <Link to="#" className="btn btn-danger">Continue</Link>
+                    <Link to="/forkinroad" className="btn btn-danger">Continue</Link>
             </div>
         </div>
     </>
