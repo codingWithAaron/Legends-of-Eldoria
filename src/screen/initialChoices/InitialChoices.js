@@ -15,7 +15,7 @@ function InitialChoices(){
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">
                 <div className="me-5">
-                    <Link to="#" className="btn btn-danger">Accept the Quest</Link>
+                    <Link to="/accept" className="btn btn-danger">Accept the Quest</Link>
                 </div>
                 <div>
                     <Link to="#" className="btn btn-danger">Decline the Quest and seek a different adventure</Link>
