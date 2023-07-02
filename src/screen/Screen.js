@@ -6,6 +6,7 @@ import InitialChoices from "./initialChoices/InitialChoices";
 import AcceptIntro from "./accept/AcceptIntro";
 import ForkInRoad from "./accept/ForkInRoad";
 import HeartOfForest from "./accept/HeartOfForest";
+import UnchartedWilderness from "./accept/UnchartedWilderness";
 
 function Screen(){
  return (
@@ -29,6 +30,9 @@ function Screen(){
                 </Route>
                 <Route path="/heartofforest" exact={true}>
                     <HeartOfForest />
+                </Route>
+                <Route path="/unchartedwilderness" exact={true}>
+                    <UnchartedWilderness />
                 </Route>
 
             </Switch>

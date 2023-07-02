@@ -20,7 +20,7 @@ function ForkInRoad(){
                     <Link to="/heartofforest" className="btn btn-danger">Heart of the Forest</Link>
                 </div>
                 <div>
-                    <Link to="#" className="btn btn-danger">Uncharted Wilderness</Link>
+                    <Link to="/unchartedwilderness" className="btn btn-danger">Uncharted Wilderness</Link>
                 </div>
             </div>
         </div>
