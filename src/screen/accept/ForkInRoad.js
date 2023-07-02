@@ -17,7 +17,7 @@ function ForkInRoad(){
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">
                 <div className="me-5">
-                    <Link to="#" className="btn btn-danger">Heart of the Forest</Link>
+                    <Link to="/heartofforest" className="btn btn-danger">Heart of the Forest</Link>
                 </div>
                 <div>
                     <Link to="#" className="btn btn-danger">Uncharted Wilderness</Link>

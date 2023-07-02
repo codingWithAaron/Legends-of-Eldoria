@@ -5,6 +5,7 @@ import Scene1Intro from "./intro/Intro";
 import InitialChoices from "./initialChoices/InitialChoices";
 import AcceptIntro from "./accept/AcceptIntro";
 import ForkInRoad from "./accept/ForkInRoad";
+import HeartOfForest from "./accept/HeartOfForest";
 
 function Screen(){
  return (
@@ -25,6 +26,9 @@ function Screen(){
                 </Route>
                 <Route path="/forkinroad" exact={true}>
                     <ForkInRoad />
+                </Route>
+                <Route path="/heartofforest" exact={true}>
+                    <HeartOfForest />
                 </Route>
 
             </Switch>
