@@ -17,7 +17,7 @@ function LabyrinthineCave(){
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">
                 <div className="me-5">
-                    <Link to="#" className="btn btn-danger">Quietly Navigate</Link>
+                    <Link to="/quietlynavigate" className="btn btn-danger">Quietly Navigate</Link>
                 </div>
                 <div>
                     <Link to="#" className="btn btn-danger">Charge Head-on</Link>
