@@ -8,6 +8,7 @@ import ForkInRoad from "./accept/ForkInRoad";
 import HeartOfForest from "./accept/HeartOfForest";
 import UnchartedWilderness from "./accept/UnchartedWilderness";
 import Mountains from "./accept/Mountains";
+import TreacherousPeaks from "./accept/TreacherousPeaks";
 
 function Screen(){
  return (
@@ -37,6 +38,9 @@ function Screen(){
                 </Route>
                 <Route path="/mountains" exact={true}>
                     <Mountains />
+                </Route>
+                <Route path="/treacherouspeaks" exact={true}>
+                    <TreacherousPeaks />
                 </Route>
 
             </Switch>
