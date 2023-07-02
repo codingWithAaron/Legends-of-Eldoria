@@ -7,7 +7,7 @@ function Mountains(){
         <div className="container d-flex flex-column m-5">
             <div className="text-center">
                 <div className="mb-5">
-                    <h4>Eventually, you arrive at the base of the treacherous mountains. Here, you face another crucial decision:</h4>
+                    <h4>Eventually, you arrive at the base of the treacherous mountains. The weather takes a dramatic turn. Dark clouds gather overhead, obscuring the sunlight and casting a gloomy shadow over the landscape. The wind howls fiercely, whistling through the jagged peaks and sending a chill down your spine. Snow begins to fall, lightly at first but gradually increasing in intensity. Here, you face another crucial decision:</h4>
                 </div>
                 <div>
                     <h5>Scale the treacherous peaks, risking danger but potentially saving time</h5>
