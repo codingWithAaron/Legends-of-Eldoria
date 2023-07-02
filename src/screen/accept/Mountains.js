@@ -20,7 +20,7 @@ function Mountains(){
                     <Link to="/treacherouspeaks" className="btn btn-danger">Treacherous Peaks</Link>
                 </div>
                 <div>
-                    <Link to="#" className="btn btn-danger">Winding Valleys</Link>
+                    <Link to="/windingvalleys" className="btn btn-danger">Winding Valleys</Link>
                 </div>
             </div>
         </div>

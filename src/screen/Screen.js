@@ -9,6 +9,7 @@ import HeartOfForest from "./accept/HeartOfForest";
 import UnchartedWilderness from "./accept/UnchartedWilderness";
 import Mountains from "./accept/Mountains";
 import TreacherousPeaks from "./accept/TreacherousPeaks";
+import WindingValleys from "./accept/WindingValleys";
 
 function Screen(){
  return (
@@ -41,6 +42,9 @@ function Screen(){
                 </Route>
                 <Route path="/treacherouspeaks" exact={true}>
                     <TreacherousPeaks />
+                </Route>
+                <Route path="/windingvalleys" exact={true}>
+                    <WindingValleys />
                 </Route>
 
             </Switch>
