@@ -20,7 +20,7 @@ function QuietlyNavigate(){
                     <Link to="/underbelly" className="btn btn-danger">Aim for the underbelly</Link>
                 </div>
                 <div className="me-5">
-                    <Link to="#" className="btn btn-danger">Blind its piercing eyes</Link>
+                    <Link to="/piercingeyes" className="btn btn-danger">Blind its piercing eyes</Link>
                 </div>
             </div>
         </div>
