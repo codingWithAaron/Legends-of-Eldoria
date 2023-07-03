@@ -12,7 +12,7 @@ function ForkInRoad(){
                     <img className="w-100" src={image1} alt="well worn path"/>
                 </div>
                 <div>
-                    <img className="w-100" src={image2} alt="well worn path"/>
+                    <img className="w-100" src={image2} alt="explore the uncharted"/>
                 </div>
             </div>
             <div className="text-center">
