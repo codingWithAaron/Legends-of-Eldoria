@@ -17,7 +17,7 @@ function QuietlyNavigate(){
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">
                 <div className="me-5">
-                    <Link to="#" className="btn btn-danger">Aim for the underbelly</Link>
+                    <Link to="/underbelly" className="btn btn-danger">Aim for the underbelly</Link>
                 </div>
                 <div className="me-5">
                     <Link to="#" className="btn btn-danger">Blind its piercing eyes</Link>
