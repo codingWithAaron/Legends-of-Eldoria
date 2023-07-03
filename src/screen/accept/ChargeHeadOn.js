@@ -20,7 +20,7 @@ function ChargeHeadOn(){
                     <Link to="/elementalforces" className="btn btn-danger">Elemental Forces</Link>
                 </div>
                 <div className="me-5">
-                    <Link to="#" className="btn btn-danger">Weakest Moments</Link>
+                    <Link to="/weakestmoments" className="btn btn-danger">Weakest Moments</Link>
                 </div>
             </div>
         </div>

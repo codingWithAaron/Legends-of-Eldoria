@@ -19,6 +19,7 @@ import ThankYou from "./accept/ThankYou";
 import PiercingEyes from "./accept/PiercingEyes";
 import ChargeHeadOn from "./accept/ChargeHeadOn";
 import ElementalForces from "./accept/ElementalForces";
+import WeakestMoments from "./accept/WeakestMoments";
 
 function Screen(){
  return (
@@ -72,6 +73,9 @@ function Screen(){
                 </Route>
                 <Route path="/elementalforces" exact={true}>
                     <ElementalForces />
+                </Route>
+                <Route path="/weakestmoments" exact={true}>
+                    <WeakestMoments />
                 </Route>
                 <Route path="/defeateddragon" exact={true}>
                     <DefeatedDragon />
