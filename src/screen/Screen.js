@@ -13,6 +13,7 @@ import WindingValleys from "./accept/WindingValleys";
 import LabyrinthineCave from "./accept/LabyrinthineCave";
 import QuietlyNavigate from "./accept/QuietlyNavigate";
 import Underbelly from "./accept/Underbelly";
+import DefeatedDragon from "./accept/DefeatedDragon";
 
 function Screen(){
  return (
@@ -57,6 +58,9 @@ function Screen(){
                 </Route>
                 <Route path="/underbelly" exact={true}>
                     <Underbelly />
+                </Route>
+                <Route path="/defeateddragon" exact={true}>
+                    <DefeatedDragon />
                 </Route>
 
             </Switch>
