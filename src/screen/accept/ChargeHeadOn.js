@@ -17,7 +17,7 @@ function ChargeHeadOn(){
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">
                 <div className="me-5">
-                    <Link to="#" className="btn btn-danger">Elemental Forces</Link>
+                    <Link to="/elementalforces" className="btn btn-danger">Elemental Forces</Link>
                 </div>
                 <div className="me-5">
                     <Link to="#" className="btn btn-danger">Weakest Moments</Link>
