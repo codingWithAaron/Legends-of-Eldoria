@@ -17,6 +17,7 @@ import DefeatedDragon from "./accept/DefeatedDragon";
 import Congratulations from "./accept/Congratulations";
 import ThankYou from "./accept/ThankYou";
 import PiercingEyes from "./accept/PiercingEyes";
+import ChargeHeadOn from "./accept/ChargeHeadOn";
 
 function Screen(){
  return (
@@ -64,6 +65,9 @@ function Screen(){
                 </Route>
                 <Route path="/piercingeyes" exact={true}>
                     <PiercingEyes />
+                </Route>
+                <Route path="/chargeheadon" exact={true}>
+                    <ChargeHeadOn />
                 </Route>
                 <Route path="/defeateddragon" exact={true}>
                     <DefeatedDragon />
