@@ -15,6 +15,7 @@ import QuietlyNavigate from "./accept/QuietlyNavigate";
 import Underbelly from "./accept/Underbelly";
 import DefeatedDragon from "./accept/DefeatedDragon";
 import Congratulations from "./accept/Congratulations";
+import ThankYou from "./accept/ThankYou";
 
 function Screen(){
  return (
@@ -65,6 +66,9 @@ function Screen(){
                 </Route>
                 <Route path="/congratulations" exact={true}>
                     <Congratulations />
+                </Route>
+                <Route path="/thankyou" exact={true}>
+                    <ThankYou />
                 </Route>
 
             </Switch>
