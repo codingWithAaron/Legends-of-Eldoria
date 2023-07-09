@@ -21,7 +21,7 @@ import ChargeHeadOn from "./accept/ChargeHeadOn";
 import ElementalForces from "./accept/ElementalForces";
 import WeakestMoments from "./accept/WeakestMoments";
 
-function Screen(){
+function Screen({magicAmulet, setMagicAmulet}){
  return (
     <>
         <div className="border border-5 border-dark rounded m-5">
@@ -39,7 +39,7 @@ function Screen(){
                     <AcceptIntro />
                 </Route>
                 <Route path="/forkinroad" exact={true}>
-                    <ForkInRoad />
+                    <ForkInRoad magicAmulet={magicAmulet} setMagicAmulet={setMagicAmulet} />
                 </Route>
                 <Route path="/heartofforest" exact={true}>
                     <HeartOfForest />
@@ -63,19 +63,19 @@ function Screen(){
                     <QuietlyNavigate />
                 </Route>
                 <Route path="/underbelly" exact={true}>
-                    <Underbelly />
+                    <Underbelly magicAmulet={magicAmulet} />
                 </Route>
                 <Route path="/piercingeyes" exact={true}>
-                    <PiercingEyes />
+                    <PiercingEyes magicAmulet={magicAmulet} />
                 </Route>
                 <Route path="/chargeheadon" exact={true}>
                     <ChargeHeadOn />
                 </Route>
                 <Route path="/elementalforces" exact={true}>
-                    <ElementalForces />
+                    <ElementalForces magicAmulet={magicAmulet} />
                 </Route>
                 <Route path="/weakestmoments" exact={true}>
-                    <WeakestMoments />
+                    <WeakestMoments magicAmulet={magicAmulet} />
                 </Route>
                 <Route path="/defeateddragon" exact={true}>
                     <DefeatedDragon />

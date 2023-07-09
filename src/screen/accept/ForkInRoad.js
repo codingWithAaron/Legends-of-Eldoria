@@ -3,7 +3,11 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import image1 from "../accept/images/fotor-ai-2023070375147_1.jpg"
 import image2 from "../accept/images/fotor-ai-2023070375147_2.jpg"
 
-function ForkInRoad(){
+function ForkInRoad({magicAmulet, setMagicAmulet}){
+    function handleOnClick(){
+        setMagicAmulet(!magicAmulet)
+    }
+
  return (
     <>
         <div className="container d-flex flex-column m-5">
@@ -27,7 +31,7 @@ function ForkInRoad(){
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">
                 <div className="me-5">
-                    <Link to="/heartofforest" className="btn btn-danger">Heart of the Forest</Link>
+                    <Link onClick={handleOnClick} to="/heartofforest" className="btn btn-danger">Heart of the Forest</Link>
                 </div>
                 <div>
                     <Link to="/unchartedwilderness" className="btn btn-danger">Uncharted Wilderness</Link>

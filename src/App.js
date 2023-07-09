@@ -1,13 +1,14 @@
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
 import Home from './home/Home';
 import Screen from './screen/Screen';
 
 function App() {
+  const [magicAmulet, setMagicAmulet] = useState(false)
   return (
     <>
       <Home />
-      <Screen />
+      <Screen magicAmulet={magicAmulet} setMagicAmulet={setMagicAmulet} />
     </>
   );
 }
