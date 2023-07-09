@@ -10,7 +10,7 @@ function HeartOfForest(){
                         <h4>You find yourself stumbling upon a hidden grove. Inside, you encounter a wise old druid who offers guidance and a magical amulet to aid you in your quest. With the amulet in your possession, you continue your journey with newfound confidence.</h4>
                     </div>
                 </div>
-                <div className="text-center mt-5 d-flex justify-content-center">
+                <div className="text-center mt-2 d-flex justify-content-center">
                     <div className="me-5">
                         <Link to="/mountains" className="btn btn-danger">Continue</Link>
                     </div>

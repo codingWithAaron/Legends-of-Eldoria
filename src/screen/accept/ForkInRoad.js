@@ -7,11 +7,11 @@ function ForkInRoad(){
  return (
     <>
         <div className="container d-flex flex-column m-5">
-            <div className="d-flex mb-4">
-                <div className="me-4">
+            <div className="d-flex mb-4 justify-content-center">
+                <div className=" w-25 me-4">
                     <img className="w-100" src={image1} alt="well worn path"/>
                 </div>
-                <div>
+                <div className="w-25">
                     <img className="w-100" src={image2} alt="explore the uncharted"/>
                 </div>
             </div>

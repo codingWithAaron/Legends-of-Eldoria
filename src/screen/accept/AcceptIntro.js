@@ -7,7 +7,7 @@ function AcceptIntro(){
     <>
         <div className="container d-flex flex-column m-5">
             <div className="d-flex justify-content-center">
-                <img className="w-50 mb-4" src={image1} alt="map"/>
+                <img className="w-25 mb-4" src={image1} alt="map"/>
             </div>
             <div className="text-center">
                 <div className="mb-5">
