@@ -24,7 +24,7 @@ import WeakestMoments from "./accept/WeakestMoments";
 function Screen({magicAmulet, setMagicAmulet}){
  return (
     <>
-        <div className="border border-5 border-dark rounded m-5">
+        <div className="border border-5 border-dark rounded m-5 d-flex justify-content-center">
             <Switch>
                 <Route path="/" exact={true}>
                     <Start />
