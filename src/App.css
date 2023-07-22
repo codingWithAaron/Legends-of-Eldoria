@@ -9,3 +9,23 @@ html{
 #webpage-background{
   background-color: rgb(52, 56, 65);
 }
+
+.power-button-on{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.power-button-off{
+  display: flex;
+  justify-content: center;
+  margin-top: 350px;
+}
+
+@media all and (max-width: 800px){
+  .power-button-off{
+    display: flex;
+    justify-content: center;
+    margin-top: 275px;
+  }
+}

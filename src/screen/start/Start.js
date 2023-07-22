@@ -6,6 +6,9 @@ function Start(){
  return (
     <>
         <div className="container d-flex flex-column m-5">
+            <div>
+                <h4 className=" text-center d-flex justify-content-center mb-4 border-bottom border-3 border-dark p-2">Legends of Eldoria: A Hero's Journey</h4>
+            </div>
             <div className="d-flex justify-content-center">
                 <img className="w-25 mb-4" src={image1} alt="town of thornwood"/>
             </div>
