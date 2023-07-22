@@ -20,11 +20,12 @@ import PiercingEyes from "./accept/PiercingEyes";
 import ChargeHeadOn from "./accept/ChargeHeadOn";
 import ElementalForces from "./accept/ElementalForces";
 import WeakestMoments from "./accept/WeakestMoments";
+import "./Screen.css"
 
 function Screen({magicAmulet, setMagicAmulet}){
  return (
     <>
-        <div className="border border-5 border-dark rounded m-5 d-flex justify-content-center">
+        <div className="border border-5 border-dark rounded d-flex justify-content-center" id="screen-background">
             <Switch>
                 <Route path="/" exact={true}>
                     <Start />

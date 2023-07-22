@@ -7,7 +7,7 @@ function Congratulations(){
         <div className="container d-flex flex-column m-5">
             <div className="text-center">
                 <div className="mb-5">
-                    <h4>Congratulations, brave adventurer! You have successfully completed your quest, but know that your journey doesn't end here. Many more adventures await you in the vast, magical realm of Eldoria.</h4>
+                    <h5>Congratulations, brave adventurer! You have successfully completed your quest, but know that your journey doesn't end here. Many more adventures await you in the vast, magical realm of Eldoria.</h5>
                 </div>
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">

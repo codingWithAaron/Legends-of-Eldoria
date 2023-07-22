@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+html{
+  background-color: rgb(52, 56, 65);
+}
+
+#webpage-background{
+  background-color: rgb(52, 56, 65);
+}

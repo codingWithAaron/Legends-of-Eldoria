@@ -11,7 +11,7 @@ function WindingValleys(){
             </div>
             <div className="text-center">
                 <div className="mb-5">
-                    <h4>Feeling at ease for taking a safer route, you eventually come across a hidden village nestled within the valleys. Grateful for your presence, the villagers offer you a magical potion that grants temporary invulnerability against fire. With this valuable asset, you continue your journey with renewed determination, knowing that the dragon's flames won't harm you.</h4>
+                    <h5>Feeling at ease for taking a safer route, you eventually come across a hidden village nestled within the valleys. Grateful for your presence, the villagers offer you a magical potion that grants temporary invulnerability against fire. With this valuable asset, you continue your journey with renewed determination, knowing that the dragon's flames won't harm you.</h5>
                 </div>
             </div>
             <div className="text-center mt-2 d-flex justify-content-center">

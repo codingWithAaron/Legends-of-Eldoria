@@ -7,8 +7,8 @@ function ThankYou(){
         <div className="container d-flex flex-column m-5">
             <div className="text-center">
                 <div className="mb-5">
-                    <h4>Thank you for playing my game! It is a work in progress and much more will be added in the future. As my skills as a Software Engineer improve, so too will this game and many more projects to come!</h4>
-                    <h4>See you next time for more adventures in the wonderous land of Eldoria!</h4>
+                    <h5>Thank you for playing my game! It is a work in progress and much more will be added in the future. As my skills as a Software Engineer improve, so too will this game and many more projects to come!</h5>
+                    <h5>See you next time for more adventures in the wonderous land of Eldoria!</h5>
                 </div>
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">

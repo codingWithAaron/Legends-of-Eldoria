@@ -21,12 +21,12 @@ function ForkInRoad({magicAmulet, setMagicAmulet}){
             </div>
             <div className="text-center">
                 <div className="mb-5">
-                    <h4>As you set out to confront the dragon, you find yourself navigating the dense, enchanted forest. As you journey deeper into its mysterious depths, you encounter a fork in the road:</h4>
+                    <h5>As you set out to confront the dragon, you find yourself navigating the dense, enchanted forest. As you journey deeper into its mysterious depths, you encounter a fork in the road:</h5>
                 </div>
                 <div>
-                    <h5>Follow the well-worn path that winds through the heart of the forest</h5>
+                    <p>Follow the well-worn path that winds through the heart of the forest</p>
                     <h5>OR</h5>
-                    <h5>Venture off the beaten path and explore the uncharted wilderness</h5>
+                    <p>Venture off the beaten path and explore the uncharted wilderness</p>
                 </div>
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">

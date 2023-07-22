@@ -4,7 +4,7 @@ import "./Home.css"
 function Home(){
     return (
         <>
-            <div className="container d-flex flex-column text-center mt-4" id="home">
+            <div className="container d-flex flex-column text-center mt-5" id="home">
                 <h2>Legends of Eldoria: A Hero's Journey</h2>
             </div>
         </>

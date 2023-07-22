@@ -11,10 +11,10 @@ function AcceptIntro(){
             </div>
             <div className="text-center">
                 <div className="mb-5">
-                    <h4>The elder's eyes gleam with hope as he provides you with a map to the dragon's lair. The map reveals that the journey will take you through treacherous forests, treks across perilous mountains, and a labyrinthine cave system before reaching the dragon's abode. Armed with the knowledge of the dragon's location, you embark on your epic quest.</h4>
+                    <h5>The elder's eyes gleam with hope as he provides you with a map to the dragon's lair. The map reveals that the journey will take you through treacherous forests, treks across perilous mountains, and a labyrinthine cave system before reaching the dragon's abode. Armed with the knowledge of the dragon's location, you embark on your epic quest.</h5>
                 </div>
                 <div>
-                    <h5>"Now, brave adventurer, it is up to you to decide the fate that awaits you. Choose your path wisely, for the decisions you make will shape the course of your adventure in this fantastical realm."</h5>
+                    <p>"Now, brave adventurer, it is up to you to decide the fate that awaits you. Choose your path wisely, for the decisions you make will shape the course of your adventure in this fantastical realm."</p>
                 </div>
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">

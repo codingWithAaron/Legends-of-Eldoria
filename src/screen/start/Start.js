@@ -9,8 +9,8 @@ function Start(){
             <div className="d-flex justify-content-center">
                 <img className="w-25 mb-4" src={image1} alt="town of thornwood"/>
             </div>
-            <div className="text-center">
-                <h2>Welcome Adventurer! You're journey starts here!</h2>
+            <div className="text-center mt-3">
+                <h5>Welcome Adventurer! You're journey starts here!</h5>
             </div>
             <div className="text-center mt-5">
                 <Link to="/intro" className="btn btn-danger">Start</Link>

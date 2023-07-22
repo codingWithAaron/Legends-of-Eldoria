@@ -7,8 +7,10 @@ function App() {
   const [magicAmulet, setMagicAmulet] = useState(false)
   return (
     <>
-      <Home />
-      <Screen magicAmulet={magicAmulet} setMagicAmulet={setMagicAmulet} />
+      <div id='webpage-background'>
+        <Home />
+        <Screen magicAmulet={magicAmulet} setMagicAmulet={setMagicAmulet} />
+      </div>
     </>
   );
 }

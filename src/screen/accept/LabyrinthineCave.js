@@ -7,12 +7,12 @@ function LabyrinthineCave(){
         <div className="container d-flex flex-column m-5">
             <div className="text-center">
                 <div className="mb-5">
-                    <h4>Finally, you reach the entrance of the labyrinthine cave system leading to the dragon's lair. Here, you face your last decision:</h4>
+                    <h5>Finally, you reach the entrance of the labyrinthine cave system leading to the dragon's lair. Here, you face your last decision:</h5>
                 </div>
                 <div>
-                    <h5>Quietly navigate the winding tunnels, relying on your stealth and cunning</h5>
+                    <p>Quietly navigate the winding tunnels, relying on your stealth and cunning</p>
                     <h5>OR</h5>
-                    <h5>Charge head-on, prepared to face any adversary that crosses your path</h5>
+                    <p>Charge head-on, prepared to face any adversary that crosses your path</p>
                 </div>
             </div>
             <div className="text-center mt-5 d-flex justify-content-center">
