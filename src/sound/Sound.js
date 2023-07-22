@@ -29,7 +29,7 @@ const Sound = () => {
         autoPlay
         controls
         loop
-        volume={0.2} // Adjust the volume as needed (0.0 to 1.0)
+        volume={0.4} // Adjust the volume as needed (0.0 to 1.0)
         style={{ display: 'none' }} // Hide the audio player
       />
     </>
