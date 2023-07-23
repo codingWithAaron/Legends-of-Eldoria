@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useState } from 'react';
-import Home from './home/Home';
 import Screen from './screen/Screen';
 import Sound from './sound/Sound';
 
@@ -34,8 +33,10 @@ function App() {
           <Sound />
           <Screen magicAmulet={magicAmulet} setMagicAmulet={setMagicAmulet} />
         </div> : "" }
-        <div className={className}>
-          <button className='btn btn-warning' onClick={handlePowerOnAndPowerClassName}>{powerOn ? "Power Off": "Power On"}</button>
+        <div>
+          <div className={powerOn ? "button-group" : "button-group-off"}>
+            <button className={className} onClick={handlePowerOnAndPowerClassName}>{powerOn ? "Power Off": "Power On"}</button>
+          </div>
         </div>
       </div>
     </>

@@ -3,29 +3,214 @@
 }
 
 html{
-  background-color: rgb(52, 56, 65);
+  background-color: #494786;
 }
 
 #webpage-background{
-  background-color: rgb(52, 56, 65);
+  background-color: #494786;
+}
+
+
+
+:root {
+  --button-height: 3rem;
+  --color-text: rgba(0,0,0,.25);
+  --color-text-shadow: rgba(255,255,255,.15);
+  --color-page-bg:#B9B5AA;
+  --color-bg:#899095;
+  --color-bg-light:#969DA3;
+  --color-bg-dark: #7D878F;
+  --color-overlay-light: rgba(255,255,255,.2);
+  --color-overlay-medium: rgba(0,0,0,.1);
+  --color-overlay-dark: rgba(0,0,0,.2);
+  --color-tab-focus: rgba(255,255,255,.15);
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-group > * {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-group-off {
+  display: flex;
+  justify-content: center;
+  margin-top: 350px;
+}
+
+.button-group-off > * {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .power-button-on{
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  position:relative;
+  appearance:none;
+  box-sizing:border-box;
+  font-size:calc( var(--button-height) / 3 );
+  font-family: 'Open Sans', sans-serif;
+  background: var(--color-bg);
+  height:var(--button-height);
+  min-width:var(--button-height);
+  border-radius:calc( var(--button-height) / 2);
+  border:0;
+  font-weight:800;
+  text-transform:uppercase;
+  color:rgb(53, 54, 54);
+  text-shadow: 1px 1px var(--color-text-shadow);
+  cursor:pointer;
+  margin:6px 6px;
+  letter-spacing:.1em;
+  transition: all 200ms ease;
+  box-shadow:
+    -1px  -1px 1px var(--color-bg),
+    0 0 0 4px var(--color-overlay-medium),
+    1px  1px 1px var(--color-bg-dark),
+    inset .0 .0 .0 var(--color-overlay-dark),  
+    inset .25rem .25rem .25rem lightgray
+}
+
+.power-button-on::-moz-focus-inner{
+  outline:none;
+  border:none;
+}
+
+.power-button-on:focus{
+  outline:none;
+  box-shadow:
+    -1px -1px 1px var(--color-bg-dark),
+    0 0 0 4px var(--color-tab-focus),
+    1px  1px 1px var(--color-bg-dark),
+    inset 0 0 0 var(--color-overlay-dark),
+    inset .5rem .5rem .25rem var(--color-bg-light),
+    ;
+}
+
+.power-button-on:hover{
+  box-shadow:
+    -1px -1px 1px var(--color-bg-dark),
+    0 0 0 4px var(--color-overlay-dark),
+    1px  1px 1px var(--color-bg-dark),
+    inset 0 0 0 var(--color-overlay-dark),
+    inset .5rem .5rem .25rem var(--color-bg-light),
+    ;
+}
+
+.power-button-on:active{
+  box-shadow:
+    inset 1px 1px 1px var(--color-bg), 
+    0 0 0 4px var(--color-overlay-dark),
+    inset -1px -1px 1px var(--color-bg-light),    
+    inset .5rem .5rem .75rem var(--color-bg-dark),
+    inset .5rem .5rem .5rem var(--color-bg-light),
 }
 
 .power-button-off{
   display: flex;
   justify-content: center;
   margin-top: 350px;
+  margin-bottom: 50px;
+  position:relative;
+  appearance:none;
+  box-sizing:border-box;
+  font-size:calc( var(--button-height) / 3 );
+  font-family: 'Open Sans', sans-serif;
+  background: var(--color-bg);
+  height:var(--button-height);
+  min-width:var(--button-height);
+  border-radius:calc( var(--button-height) / 2);
+  border:0;
+  font-weight:800;
+  text-transform:uppercase;
+  color:rgb(53, 54, 54);
+  text-shadow: 1px 1px var(--color-text-shadow);
+  cursor:pointer;
+  margin:6px 6px;
+  letter-spacing:.1em;
+  transition: all 200ms ease;
+  box-shadow:
+    -1px  -1px 1px var(--color-bg),
+    0 0 0 4px var(--color-overlay-medium),
+    1px  1px 1px var(--color-bg-dark),
+    inset .0 .0 .0 var(--color-overlay-dark),  
+    inset .25rem .25rem .25rem lightgray
+}
+
+.power-button-off::-moz-focus-inner{
+  outline:none;
+  border:none;
+}
+
+.power-button-off:focus{
+  outline:none;
+  box-shadow:
+    -1px -1px 1px var(--color-bg-dark),
+    0 0 0 4px var(--color-tab-focus),
+    1px  1px 1px var(--color-bg-dark),
+    inset 0 0 0 var(--color-overlay-dark),
+    inset .5rem .5rem .25rem var(--color-bg-light),
+    ;
+}
+
+.power-button-off:hover{
+  box-shadow:
+    -1px -1px 1px var(--color-bg-dark),
+    0 0 0 4px var(--color-overlay-dark),
+    1px  1px 1px var(--color-bg-dark),
+    inset 0 0 0 var(--color-overlay-dark),
+    inset .5rem .5rem .25rem var(--color-bg-light),
+    ;
+}
+
+.power-button-off:active{
+  box-shadow:
+    inset 1px 1px 1px var(--color-bg), 
+    0 0 0 4px var(--color-overlay-dark),
+    inset -1px -1px 1px var(--color-bg-light),    
+    inset .5rem .5rem .75rem var(--color-bg-dark),
+    inset .5rem .5rem .5rem var(--color-bg-light),
 }
 
 @media all and (max-width: 800px){
-  .power-button-off{
+  .button-group {
     display: flex;
     justify-content: center;
-    margin-top: 275px;
+    margin-bottom: 50px;
+    margin-top: 35px;
+  }
+  
+  .button-group > * {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-group-off {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+  }
+  
+  .button-group-off > * {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
